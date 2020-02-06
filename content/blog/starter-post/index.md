@@ -1,7 +1,7 @@
 ---
 title: Ukrainian in Vim
 date: "2020-02-05"
-description: Today
+description: Creating a Ukrainian keyboard layout in vim
 ---
 
 Today I feel like I finally did something that I've always wanted to do with vim, I updated my vimrc so that I can easily transition to writing Ukrainian on an english keyboard without having to relearn all the letter positions of a normal keyboard setup.
