@@ -33,14 +33,14 @@ The final function looks something like this:
 
 ```vimscript
 
-let g:ukrainian\_not\_mapped=1
+let g:ukrainian_not_mapped=1
 function ToggleUkrainian()
-    if g:ukrainian\_not\_mapped
+    if g:ukrainian_not_mapped
         call SetUkrainain()
-        let g:ukrainian\_not\_mapped=0
+        let g:ukrainian_not_mapped=0
     else
         call UnSetUkrainain()
-        let g:ukrainian\_not\_mapped=1
+        let g:ukrainian_not_mapped=1
     endif
 endfunction
 ```
