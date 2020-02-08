@@ -16,23 +16,22 @@ In order to do this I created 3 functions in my vimrc
 The main take aways are that in order to input the ukrainian characters into the vimrc in the first place you need to find their unicode character on https://en.wikipedia.org/wiki/Ukrainian_alphabet afterwards you can type them in by using "ctrl+v u" + the character code. EG: typing ctrl+v u0424 gives you this Ф
 
 To map all the characters you need in the first function you use your selection of characters using this function:
-    
+```    
 imap f ф	
-
+```
 Do that with all characters and you find that quite a few translate over very nicely, but I knew that I would run out of english characters to overwrite and I decided that I usually don't use numbers when I'm writing so I overwrote them all other than 1,5,0. 1 I left due to the exclamation point and the others are leftovers. You can also use a dead key and have a key combinations for some characters. EG:
-
+```
 imap ii ї
-
+```
 Once thats done you can copy over the entire function to create the unmapping function then you change every instance of imap to iunmap, and remove anything after the replacement character, it should look like this:
-
+```
 iunmap a
-
+```
 If you have any trailing spaces after the 'a' you will probably get an error when you try to unmap as vim will probably think you are unmapping a + spacebar
 
 The final function looks something like this:
 
 ```vimscript
-
 let g:ukrainian_not_mapped=1
 function ToggleUkrainian()
     if g:ukrainian_not_mapped
@@ -44,3 +43,6 @@ function ToggleUkrainian()
     endif
 endfunction
 ```
+
+
+I have the source code here: [source](./script.txt)

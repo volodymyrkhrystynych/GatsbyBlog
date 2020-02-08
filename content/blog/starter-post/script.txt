@@ -1,0 +1,153 @@
+let g:ukrainain_not_mapped=1
+function ToggleUkrainian()
+	if g:ukrainain_not_mapped
+		call SetUkrainian()
+		let g:ukrainain_not_mapped=0
+	else
+		call UnSetUkrainian()
+		let g:ukrainain_not_mapped=1
+	endif
+endfunction
+
+function SetUkrainian()
+	imap a а
+	imap A А
+	imap b б
+	imap B Б
+	imap c ч
+	imap C Ч
+	imap d д
+	imap D Д
+	imap e е
+	imap E Е
+	imap f ф
+	imap F Ф
+	imap g ґ
+	imap G Ґ
+	imap h г
+	imap H Г
+	imap i і
+	imap I І
+	imap j й
+	imap J Й
+	imap k к
+	imap K К
+	imap l л
+	imap L Л
+	imap m м
+	imap M М
+	imap n н
+	imap N Н
+	imap o о
+	imap O О
+	imap p п
+	imap P П
+	imap q ь
+	imap Q Ь
+	imap r р
+	imap R Р
+	imap s с
+	imap S С
+	imap t т
+	imap T Т
+	imap u у
+	imap U У
+	imap v в
+	imap V В
+	imap w ш
+	imap W Ш
+	imap x х
+	imap X Х
+	imap y и
+	imap Y И
+	imap z з
+	imap Z З
+
+	imap 2 щ
+	imap @ Щ
+	imap 7 ю
+	imap & Ю
+	imap 8 ї
+	imap * Ї
+	imap 3 є
+	imap # Є
+	imap 4 я
+	imap $ Я
+	imap 6 ц
+	imap ^ Ц
+	imap 9 ж
+	imap ( Ж
+endfunction
+
+function UnSetUkrainian()
+	iunmap a
+	iunmap A
+	iunmap b
+	iunmap B
+	iunmap c
+	iunmap C
+	iunmap d
+	iunmap D
+	iunmap e
+	iunmap E
+	iunmap f
+	iunmap F
+	iunmap g
+	iunmap G
+	iunmap h
+	iunmap H
+	iunmap i
+	iunmap I
+	iunmap j
+	iunmap J
+	iunmap k
+	iunmap K
+	iunmap l
+	iunmap L
+	iunmap m
+	iunmap M
+	iunmap n
+	iunmap N
+	iunmap o
+	iunmap O
+	iunmap p
+	iunmap P
+	iunmap q
+	iunmap Q
+	iunmap r
+	iunmap R
+	iunmap s
+	iunmap S
+	iunmap t
+	iunmap T
+	iunmap u
+	iunmap U
+	iunmap v
+	iunmap V
+	iunmap w
+	iunmap W
+	iunmap x
+	iunmap X
+	iunmap y
+	iunmap Y
+	iunmap z
+	iunmap Z
+
+	iunmap 2
+	iunmap @
+	iunmap 7
+	iunmap &
+	iunmap 8
+	iunmap *
+	iunmap 3
+	iunmap #
+	iunmap 4
+	iunmap $
+	iunmap 6
+	iunmap ^
+	iunmap 9
+	iunmap (
+endfunction
+
+
+
