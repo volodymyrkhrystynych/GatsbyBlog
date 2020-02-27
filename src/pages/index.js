@@ -9,6 +9,7 @@ import { rhythm } from "../utils/typography"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  const indexposts = posts.filter((slug) => {return slug.includes("index")})
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -45,6 +46,9 @@ const BlogIndex = ({ data, location }) => {
 }
 
 export default BlogIndex
+
+//filtering out everything but the index markdowns, problem is that the index links to the talks do not work (page not found)
+//filter: {fileAbsolutePath: {regex: "/(index)/"  }}, 
 
 export const pageQuery = graphql`
   query {
