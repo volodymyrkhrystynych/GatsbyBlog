@@ -9,7 +9,7 @@ import { rhythm } from "../utils/typography"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-  const indexposts = posts.filter((slug) => {return slug.includes("index")})
+	//const indexposts = posts.filter((slug) => {return slug.includes("index")})
 
   return (
     <Layout location={location} title={siteTitle}>
