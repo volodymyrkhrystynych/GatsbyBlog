@@ -1,7 +1,7 @@
 ---
 title: Bootstrapping a data-driven application with Zappa to find an apartment in Toronto
 date: "2020-02-27"
-description: Ian Whitestone talks about how he built an application that monitors and sends slack messages for apartment listings that meet the users preferences of price and location
+description: Ian Whitestone talks about how he built a serverless application using that monitors and sends slack messages for apartment listings that meet the users preferences of price and location
 ---
 
 # Bootstrapping a data-driven application with Zappa to find an apartment in Toronto
