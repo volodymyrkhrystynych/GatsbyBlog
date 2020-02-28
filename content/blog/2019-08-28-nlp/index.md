@@ -1,3 +1,9 @@
+---
+title: NLP Feature Engineering
+date: "2019-08-28"
+description: 2 Talks from Kognitiv and H2O about feature engineering in natural language processing
+---
+
 # NLP feature engineering
 
 ## Hands on feature engineering
