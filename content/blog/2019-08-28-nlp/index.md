@@ -3,10 +3,7 @@ title: NLP Feature Engineering
 date: "2019-08-28"
 description: 2 Talks from Kognitiv and H2O about feature engineering in natural language processing
 ---
-
-# NLP feature engineering
-
-## Hands on feature engineering
+# Hands on feature engineering
 Susan Li from Kognitiv
 
 Feature engineering for nlp
@@ -46,7 +43,7 @@ gensim
 Lime
 Shap
 
-## Understanding predictions: Machine learning interpretability
+# Understanding predictions: Machine learning interpretability
 Pratap Rumamurthy from H20
 
 ml pipeline:
