@@ -7,8 +7,14 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
+<<<<<<< HEAD
 	const siteTitle = data.site.siteMetadata.title
 	const posts = data.allMarkdownRemark.edges
+=======
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
+	//const indexposts = posts.filter((slug) => {return slug.includes("index")})
+>>>>>>> 046326ea5e9ff360b58814720721fb1b3a5324ab
 
 	return (
 		<Layout location={location} title={siteTitle}>
@@ -45,6 +51,9 @@ const BlogIndex = ({ data, location }) => {
 }
 
 export default BlogIndex
+
+//filtering out everything but the index markdowns, problem is that the index links to the talks do not work (page not found)
+//filter: {fileAbsolutePath: {regex: "/(index)/"  }}, 
 
 export const pageQuery = graphql`
 	query {
