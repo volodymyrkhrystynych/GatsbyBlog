@@ -16,3 +16,4 @@ https://stackoverflow.com/questions/36419442/the-role-defined-for-the-function-c
 
 A canary function is only useful if it can notify you and in order to do that I needed to create an alert for it on AWS Cloudwatch
 
+
