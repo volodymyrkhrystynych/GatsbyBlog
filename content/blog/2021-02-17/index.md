@@ -1,6 +1,6 @@
 ---
 title: Learning to code in Spacemacs
-date: "2021-02-17"
+date: "2021-02-20"
 description: How I funbled my way through learning to code in spacemacs
 ---
 
@@ -23,8 +23,18 @@ I tried to configure the gatsby-config to ignore the .#myfile files but that did
 
 https://develop.spacemacs.org/layers/+source-control/git/README.htmL
 
-The standard action of state, commit and push changes in git:
+The standard action of stage all, commit and push changes in git:
 
-space-g-s
-S
-c-c
+space-g-s // to open git status.
+S         // to stage all changes.
+c-c       // Now you write a commit message.
+Z-Z       // Save commit message and commit changes.
+
+
+## How to get a filetree to open
+
+space-p-t // toggles treemacs, need to figure out how to remove projects from it
+
+## Things that need to be investigated:
+
+How to open projects more easily, or to get projects to show up when doing the projectile-helm command (space-p-h).
