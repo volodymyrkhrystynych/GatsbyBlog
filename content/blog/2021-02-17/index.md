@@ -1,7 +1,7 @@
 ---
 title: Learning to code in Spacemacs
 date: "2021-02-20"
-description: How I funbled my way through learning to code in spacemacs
+description: How I fumbled my way through learning to code in spacemacs
 ---
 
 This started a while ago when I first got into vim, or more specifically neovim. The reason that I started using vim-like editors was because I bought a gpd-pocket in order to act as a pocket pc/journaling device and while windows ran well on it the "mouse" was mediocre at best and I found that editing files using vim in the powershell was most of what I was doing on it. So I switched to a linux distro, got a window manager as I didn't have enough space to resize windows as got to work. I got a developement environment to work in neovim using plugins but found myself constantly trying to emulate and find different plugins that do what I want in neovim, this became tedious and so I decided to try out spacemacs.
